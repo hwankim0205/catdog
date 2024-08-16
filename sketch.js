@@ -1,7 +1,8 @@
+
   // Classifier Variable
   let classifier;
   // Model URL
-  let imageModelURL = './my_model/';
+  let imageModelURL = 'https://teachablemachine.withgoogle.com/models/MW5abuvrX/';
   
   // Video
   let video;
@@ -59,4 +60,3 @@
     // Classifiy again!
     classifyVideo();
   }
-
